@@ -29,7 +29,7 @@ if(distance<20) // When distance of Obstacle is less than 20 cm
 {mySerial.println("AT+CMGF=1"); //Setting gsm module to calling mode
   updateSerial();
 
-mySerial.println("ATD6370630981"); //setting number to call
+mySerial.println("ATDxxxxxxxxxx"); //setting number to call replace xx's with the number
   updateSerial();
 
 digitalWrite(buzzer,LOW ); //Beep the buzzer
